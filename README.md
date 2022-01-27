@@ -19,13 +19,13 @@ know whether this package might be useful for them.
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
-
-in pubspec.yaml file make sure to add the folowing under dependencies:
+```yaml
+#in pubspec.yaml file make sure to add the folowing under dependencies:
   card_numbers_form_camera:
       git:
         url: https://github.com/mohamedmv/card_numbers_form_camera.git
         ref: master
-
+```
 ## Usage
 
 
