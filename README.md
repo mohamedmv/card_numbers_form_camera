@@ -33,11 +33,14 @@ in pubspec.yaml file make sure to add the folowing under dependencies:
 ```dart
 // first import the packge
 import 'package:card_numbers_form_camera/card_numbers_form_camera.dart';
-
+```
+```dart
 //to call the getCardNumbers method you need a BuildContext so make sure to be inside of a widget
 // the method return a future String so make sure to await it
 String card_numbers = await getCardNumbers(context);
+```
 
+```dart
 // the perfect way is to call if inside an async function
 //Example
 TextButton(
