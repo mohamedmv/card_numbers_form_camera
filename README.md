@@ -20,8 +20,11 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+in pubspec.yaml file make sure to add the folowing under dependencies:
+  card_numbers_form_camera:
+      git:
+        url: https://github.com/mohamedmv/card_numbers_form_camera.git
+        ref: master
 
 ## Usage
 
