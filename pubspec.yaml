@@ -19,6 +19,7 @@ dependencies:
   camera: ^0.9.4+8
   learning_input_image: ^0.0.6+2
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
