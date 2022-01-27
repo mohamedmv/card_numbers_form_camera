@@ -25,11 +25,15 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+
 
 ```dart
-const like = 'sample';
+// first import the packge
+import 'package:card_numbers_form_camera/card_numbers_form_camera.dart';
+
+//to call the getCardNumbers method you need a BuildContext so make sure to be inside of a widget
+// the method return a future String so make sure to await it
+String card_numbers = await getCardNumbers(context);
 ```
 
 ## Additional information
