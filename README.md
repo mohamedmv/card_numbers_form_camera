@@ -34,6 +34,18 @@ import 'package:card_numbers_form_camera/card_numbers_form_camera.dart';
 //to call the getCardNumbers method you need a BuildContext so make sure to be inside of a widget
 // the method return a future String so make sure to await it
 String card_numbers = await getCardNumbers(context);
+
+// the perfect way is to call if inside an async function
+//Example
+TextButton(
+    child: Text('scan numbers'),
+    onPressed: ()async {
+             String s = await  getCardNumbers(context);
+             setState(() {
+               text= s;
+             });
+
+            },),
 ```
 
 ## Additional information
