@@ -41,8 +41,8 @@ class _ExampleCameraOverlayState extends State<ExampleCameraOverlay> {
                   Navigator.of(context).pop([file]);
                 },
                 info:
-                'Position your ID card within the rectangle and ensure the image is perfectly readable.',
-                label: 'Scanning ID Card');
+                '',
+                label: 'Numero de carte');
           } else {
             return const Align(
                 alignment: Alignment.center,
